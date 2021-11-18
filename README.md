@@ -1,7 +1,7 @@
 # Time Series Alignment with Global Invariances
 
 This code is an attempt to help reproduce results from the paper "Time Series 
-Alignment with Global Invariances".
+Alignment with Global Invariances" (<https://arxiv.org/abs/2002.03848>).
 
 ## Pre-requisites
 
