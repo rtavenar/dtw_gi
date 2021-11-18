@@ -1,0 +1,8 @@
+tslearn>=0.3
+numba
+geoopt
+torch
+matplotlib
+numpy
+scipy
+imageio
