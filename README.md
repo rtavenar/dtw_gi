@@ -39,7 +39,7 @@ export PYTHONPATH=$PYTHONPATH:path/to/base/folder
 For figures 1 to 5, notebooks are provided that generate the figures:
 
 * [Fig. 1](fig1.ipynb)
-* [Fig. 2](fig2.ipynb`)
+* [Fig. 2](fig2.ipynb)
 * [Fig. 3](fig3.ipynb) (note that this Figure reports timings and hence 
 obtained results can be different from one execution environment to the other,
 however, trends should be similar, since they reflect theoretical complexity)
