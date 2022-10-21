@@ -45,3 +45,4 @@ obtained results can be different from one execution environment to the other,
 however, trends should be similar, since they reflect theoretical complexity)
 * [Fig. 4](fig4.ipynb)
 * [Fig. 5](fig5.ipynb)
+* [Fig. 6](fig6.ipynb)

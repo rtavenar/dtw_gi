@@ -195,7 +195,11 @@ def dtw_gi_barycenter_averaging_one_init(X, barycenter_size=None,
         barycenter_size = ts_size(X_[0])
     weights = _set_weights(weights, len(X_))
     if init_barycenter is None:
-        barycenter = _init_avg(X_, barycenter_size)
+        try:
+            barycenter = _init_avg(X_, barycenter_size)
+        except:
+            barycenter_idx = numpy.random.choice(len(X_))
+            barycenter = X_[barycenter_idx]
     else:
         barycenter = init_barycenter
     cost_prev, cost = numpy.inf, numpy.inf
